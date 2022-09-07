@@ -1,0 +1,29 @@
+﻿* {
+    display: block;
+}
+
+ficha{
+    font-size: 2em;
+}
+
+nombre[sexo]::before {
+    content: " (Genero " attr(sexo) " ) ";
+    color: aqua;
+}
+
+nombre {
+    color: rgba(214, 97, 240, 0.733);
+}
+
+nombre[sexo]::after {
+    content: " sexo: " attr(sexo);
+    color: bisque;
+}
+
+apellido{
+    color: chocolate;
+}
+
+direccion {
+    color: steelblue;
+}

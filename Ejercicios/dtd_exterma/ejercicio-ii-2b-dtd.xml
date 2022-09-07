@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo-ii-2b.css"?>
+<!-- ejemplodtd1.xml -->
+
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2b-dtd.dtd">
+
+<fichero>
+ <ficha>
+  <nombre sexo="femenino">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html#ejerExter" target="_self">Regresar</a>
+ </ficha>
+</fichero>

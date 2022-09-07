@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+
+<!-- tarea.xml -->
+
+<!DOCTYPE equipos SYSTEM "tareas.dtd">
+
+<equipos universidad="Universidad de El Salvador">
+    <equipo n-grupo="4" tema="Creacion de paginas web">
+        <facultad codigo="102-7" nombre="Facultad de ingenieria y arquitectura">
+            <carrera codigo="10101-3" nombre="Ing. en Sistemas informaticos">
+                <materia codigo="TPI115">Técnicas de Programación Para Internet</materia>
+            </carrera>
+        </facultad>
+        <gt>01</gt>
+        <actividad porcentaje="25%">Proyecto</actividad>
+        <profesor>Ing. Balmore</profesor>
+        <coordinador carnet="HS19011" sexo="m">Edwin Alexander, Hernandez Sanchez</coordinador>
+        <integrante1 carnet="VR20009" sexo="f">Jimena Guadalupe, Velazquez Rodriguez</integrante1>
+        <integrante2 carnet="RG20007" sexo="f">Maria Concepcion, Rivas Gonzalez</integrante2>
+        <integrante3 carnet="AX18006" sexo="f">Maria Jose, Alfaro </integrante3>
+    </equipo>
+    <equipo n-grupo="12" tema="Aplicacion de transformada de Laplace">
+        <facultad codigo="102-7" nombre="Facultad de ingenieria y arquitectura">
+            <carrera codigo="10201-4" nombre="Ing. Electrica">
+                <materia codigo="MAT115">Matematica I</materia>
+            </carrera>
+        </facultad>
+        <gd>06</gd>
+        <actividad porcentaje="15%">Tarea de investigacion</actividad>
+        <profesor>Ing. Catacho</profesor>
+        <coordinador carnet="HS19011" sexo="m">Marvin Alexander, Campos Sanchez</coordinador>
+        <integrante1 carnet="VF20023" sexo="m">Jose Alberto, Velazquez Fuentes</integrante1>
+        <integrante2 carnet="RP17067" sexo="m">Carlos Beltran, Rivas Perez</integrante2>
+        <integrante3 carnet="MC16009" sexo="f">Alma Leonor, Mendez Carmen </integrante3>
+    </equipo>
+    <equipo n-grupo="5" tema="Tabla periodica">
+        <facultad codigo="102-7" nombre="Facultad de ingenieria y arquitectura">
+            <carrera codigo="10301-7" nombre="Ing. Quimica">
+                <materia codigo="MET115">Metodos experimentales</materia>
+            </carrera>
+        </facultad>
+        <gl>12</gl>
+        <actividad porcentaje="20%">Reporte cientifico</actividad>
+        <profesor especialidad="Especialidad en Radiologia">Ing. Simi</profesor>
+        <coordinador carnet="RS91014" sexo="m">Alexander Eduardo, Rivera Sanchez</coordinador>
+        <integrante1 carnet="CF92025" sexo="m">Brayan, Calderon Fuentes</integrante1>
+        <integrante2 carnet="RC93066" sexo="m">Diego jose,Rivas Campos</integrante2>
+        <integrante3 carnet="RA92008" sexo="f">Fatima Raquel, Rogel Angel </integrante3>
+        <descripcion>Grupo conformado por estudiantes de la FIA-UES</descripcion>
+    </equipo>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html#tarea" target="_self">Regresar</a>
+</equipos>

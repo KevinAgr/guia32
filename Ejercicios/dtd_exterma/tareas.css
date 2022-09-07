@@ -1,0 +1,196 @@
+﻿@charset "UTF-8";
+/* CSS Document HS19011 */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+equipos::before {
+	content: attr(universidad);
+    background-color:#3C4560; 
+    color:white;
+	font-weight:bold;
+	text-align:center;
+	font-family:Arial;
+	border-style:none solid none solid;
+   	border-color:#EABE3F;
+	border-radius:5px;
+    padding: 6px 0;
+	margin-bottom:8px;
+	display:block;
+}
+
+equipos {
+	background-color:#303845;
+	color:#C5C8CF;	
+	font-family:Comic Sans, Comic Sans MS, Arial;
+    font-size:1.4em;
+	width:55%;
+    margin:10px auto;
+	padding:10px;
+	display:block;
+}
+
+equipo::before {
+    content:"Grupo: "attr(n-grupo)" - Tema: "attr(tema);
+    text-align:center;
+    display: block;
+}
+
+equipo {
+    margin:10px auto;
+	padding:10px;
+    border-style:solid;
+   	border-color:#EABE3F;
+	border-radius:5px;
+    display: block;
+}
+
+facultad::before {
+    content:attr(nombre)" ("attr(codigo)")";
+    text-align:center;
+    display: block;
+}
+
+carrera::before {
+    content:attr(nombre)" ("attr(codigo)")";
+    text-align:center;
+    display: block;
+}
+
+materia::before {
+    font-weight: bold;
+    content:"Materia: ";
+    display: inline;
+}
+
+materia {
+    margin-top: 10px;
+    display: block;
+}
+
+materia::after {
+    content:" ("attr(codigo)")";
+    display: inline;
+}
+
+gt::before {
+    content:"GT: ";
+    font-weight: bold;
+    display: inline;
+}
+
+gt {
+    display: block;
+}
+
+gd::before {
+    content:"GD: ";
+    font-weight: bold;
+    display: inline;
+}
+
+gd {
+    display: block;
+}
+
+gl::before {
+    content:"GL: ";
+    font-weight: bold;
+    display: inline;
+}
+
+gl {
+    display: block;
+}
+
+actividad::before {
+    content:"Actividad: ";
+    font-weight: bold;
+    display: inline;
+}
+
+actividad {
+    display: block;
+}
+
+actividad::after {
+    content:" Ponderacion: " attr(porcentaje);
+    font-weight: bold;
+    display: inline;
+}
+
+profesor::before {
+    content:" Profesor: ";
+    font-weight: bold;
+    display: inline;
+}
+
+profesor {
+    display: block;
+}
+
+profesor::after {
+    content:" "attr(especialidad);
+    font-weight: bold;
+    display: inline;
+}
+
+coordinador::before {
+    content:"Coordenador: ";
+    font-weight: bold;
+    display: inline;
+}
+
+coordinador {
+    display: block;
+}
+
+coordinador::after {
+    content:" - "attr(carnet)", Sexo: "attr(sexo);
+}
+
+integrante1::before {
+    content:"- ";
+}
+
+integrante1 {
+    display: block;
+}
+
+integrante1::after {
+    content:" - "attr(carnet)", Sexo: "attr(sexo);
+}
+
+integrante2::before {
+    content:"- ";
+}
+
+integrante2 {
+    display: block;
+}
+
+integrante2::after {
+    content:" - "attr(carnet)", Sexo: "attr(sexo);
+}
+
+integrante3::before {
+    content:"- ";
+}
+
+integrante3 {
+    display: block;
+}
+
+integrante3::after {
+    content:" - "attr(carnet)", Sexo: "attr(sexo);
+}
+
+a:link, a:visited{
+	color:#C5C8CF;
+}
+
+a:hover{
+	text-decoration:none;
+}
