@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio9.xml  GRUPO 04 -->
+<?xml-stylesheet type="text/css" href="notas.css" ?>
+<!DOCTYPE Estudiante SYSTEM "notas.dtd">
+<Estudiante Nombres="Juan Carlos" Apellidos="Flores Escobar" Carnet="FE19014" Sexo="Masculino" FechaNacimiento="11/08/2001">
+  <a id="up" href="#" xmlns="http://www.w3.org/1999/xhtml"><b id="flecha">↑</b></a>
+  <a id="menu" href="../../index.html" xmlns="http://www.w3.org/1999/xhtml"><b>Volver</b></a>
+    <Carrera CodigoCarrera="I10515" NombreCarrera="Ingenieria en Sistemas Informaticos">
+        <Ciclo NumeroCiclo="1">
+            <Materia CodigoMateria="MAT115" NombreMateria="Matematicas 1">
+                <Evaluacion NombreEvaluacion="Parcial 1">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">10</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 2">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">9</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 3">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">8</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 4">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">10</DetalleEvaluacion>
+                </Evaluacion>
+                  <Evaluacion NombreEvaluacion="Parcial 5">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">7</DetalleEvaluacion>
+                </Evaluacion>
+            </Materia>
+            <Materia CodigoMateria="MTE115" NombreMateria="Metodos Experimentales">
+                <Evaluacion NombreEvaluacion="Parcial 1">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">8</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 2">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">9</DetalleEvaluacion>
+                </Evaluacion>
+                  <Evaluacion NombreEvaluacion="Parcial 3">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">10</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Tarea Investigacion">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">7</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Laboratorios">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">10</DetalleEvaluacion>
+                </Evaluacion>
+            </Materia>
+        </Ciclo>
+        <Ciclo NumeroCiclo="2">
+            <Materia CodigoMateria="MAT215" NombreMateria="Matematicas 2">
+                <Evaluacion NombreEvaluacion="Parcial 1">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">6</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 2">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">8</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 3">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">8</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 4">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">7</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 5">
+                    <DetalleEvaluacion Encargado="Ing. Huezo">6</DetalleEvaluacion>
+                </Evaluacion>
+            </Materia>
+            <Materia CodigoMateria="FIR115" NombreMateria="Fisica 1">
+                <Evaluacion NombreEvaluacion="Parcial 1">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">3</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Parcial 2">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">9</DetalleEvaluacion>
+                </Evaluacion>
+                  <Evaluacion NombreEvaluacion="Parcial 3">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">10</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Examen Corto 1">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">9</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Examen Corto 2">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">9</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Examen Corto 3">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">9</DetalleEvaluacion>
+                </Evaluacion>
+                <Evaluacion NombreEvaluacion="Laboratorios">
+                    <DetalleEvaluacion Encargado="Ing. Martinez">8</DetalleEvaluacion>
+                </Evaluacion>
+            </Materia>
+        </Ciclo>
+    </Carrera>
+</Estudiante>
+

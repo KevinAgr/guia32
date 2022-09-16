@@ -1,0 +1,136 @@
+/* Grupo 04 */
+
+Estudiante {
+    background-color:#b71c1c;
+    display: inline-block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+    font: 2em sans-serif;
+}
+Estudiante::before{
+    content: "Estudiante: \A " attr(Carnet) " - " attr(Nombres) " " attr(Apellidos) "\A Sexo: " attr(Sexo) "   Fecha de nacimiento: " attr(FechaNacimiento) "\A";
+    color: white;
+    margin-left: 10px;
+    white-space: pre;
+    font-size: 30px;
+}
+
+#menu{
+	  background:#07A902;
+	  display:block;
+		position:absolute;
+		right:10px;
+		top:10px;
+	  width: 100px;
+	  margin-left: 10px;
+	  margin-top: 10px;
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 30px;
+	  color:black;
+	}
+
+ #menu:hover{
+	 background:#2CFC26;
+ }
+
+#up{
+  background:#07A902;
+  bottom:1px;
+  display:flex;
+  height:50px;
+  text-decoration: none;
+  position:fixed;
+  right:1px;
+  width:50px;
+  border-radius: 100%;
+  align-items:center;
+  color:black;
+}
+
+#up:hover{
+  background:#2CFC26;
+}
+
+#flecha{
+    position:fixed;
+right:18px;
+bottom:10px;
+}
+
+Carrera{
+    background-color:#c62828;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+}
+Carrera::before {
+    content: "Carrera: " attr(CodigoCarrera) " - " attr(NombreCarrera);
+    color:white;
+    white-space: pre;
+    font-size: 20px;
+}
+Ciclo{
+    background-color:#c62828;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.2em;
+    padding:0.2em;
+}
+Ciclo::before {
+    content: "Ciclo " attr(NumeroCiclo);
+    color:white;
+    white-space: pre;
+    font-size: 20px;
+    font-weight: bold;
+}
+Materia{
+    background-color:#d32f2f;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+}
+Materia::before {
+    content: attr(CodigoMateria) " - " attr(NombreMateria);
+    color:white;
+    white-space: pre;
+    font-size: 20px;
+    font-weight: bold;
+}
+Evaluacion{
+    background-color:#c62828;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.25em;
+    padding:0.25em;
+}
+Evaluacion::before {
+    content: attr(NombreEvaluacion);
+    color:white;
+    white-space: pre;
+    font-size: 20px;
+    font-weight: bold;
+}
+DetalleEvaluacion{
+    background-color:#c62828;
+    color:white;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.1em;
+    padding:0.1em;
+}
+DetalleEvaluacion::before {
+    content: "Docente encargado: " attr(Encargado) " \A Nota de evaluacion: ";
+    color:white;
+    white-space: pre;
+    font-size: 20px;
+}

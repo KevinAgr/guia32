@@ -1,0 +1,43 @@
+<!-- Grupo 04 -->
+<!--====Ejercicio9.dtd=====-->
+<!-- Estudiante-->
+<!ELEMENT Estudiante (a*,Carrera)>
+<!ELEMENT a (b*)>
+<!ELEMENT b (#PCDATA)>
+<!ATTLIST b id CDATA #IMPLIED>
+<!ATTLIST a id CDATA #REQUIRED>
+<!ATTLIST a href CDATA #REQUIRED>
+<!ATTLIST a xmlns CDATA #FIXED "http://www.w3.org/1999/xhtml">
+
+<!ATTLIST Estudiante Nombres CDATA #REQUIRED>
+<!ATTLIST Estudiante Apellidos CDATA #REQUIRED>
+<!ATTLIST Estudiante Carnet CDATA #REQUIRED>
+<!ATTLIST Estudiante Sexo (Masculino|Femenino) #REQUIRED>
+<!ATTLIST Estudiante FechaNacimiento CDATA #REQUIRED>
+
+
+<!-- carrera-->
+<!ELEMENT Carrera (Ciclo+)>
+
+<!ATTLIST Carrera CodigoCarrera CDATA #REQUIRED>
+<!ATTLIST Carrera NombreCarrera CDATA #REQUIRED>
+
+<!-- ciclo-->
+<!ELEMENT Ciclo (Materia+)>
+<!ATTLIST Ciclo NumeroCiclo CDATA #REQUIRED>
+
+<!-- materia-->
+<!ELEMENT Materia (Evaluacion+)>
+
+<!ATTLIST Materia CodigoMateria CDATA #REQUIRED>
+<!ATTLIST Materia NombreMateria CDATA #REQUIRED>
+
+<!-- evaluacion-->
+<!ELEMENT Evaluacion (DetalleEvaluacion)>
+
+<!ATTLIST Evaluacion NombreEvaluacion CDATA #REQUIRED>
+
+<!-- nota-->
+<!ELEMENT DetalleEvaluacion (#PCDATA)>
+
+<!ATTLIST DetalleEvaluacion Encargado CDATA #REQUIRED>
